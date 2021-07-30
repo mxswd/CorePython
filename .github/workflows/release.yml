@@ -36,10 +36,7 @@ jobs:
         draft: true
         prerelease: false
         body: |
-          Build ${{ env.BUILD_NUMBER }} of the BeeWare support package for Python ${{ env.PY_VERSION }}.
-          Includes:
-          * Python ${{ env.PY_VERSION }}.?
-          * ...
+          Build ${{ env.BUILD_NUMBER }} for Python ${{ env.PY_VERSION }}.
     outputs:
       upload_url: ${{ steps.create_release.outputs.upload_url }}
 
@@ -76,6 +73,7 @@ jobs:
         curl -o Python-${{ env.PY_VERSION }}-macOS-support.custom.tar.gz -L https://github.com/mxswd/Python-Apple-support/releases/download/${{ env.TAG }}/Python-${{ env.PY_VERSION }}-macOS-support.${{ env.BUILD_NUMBER }}.tar.gz
         curl -o Python-${{ env.PY_VERSION }}-iOS-support.custom.tar.gz -L https://github.com/mxswd/Python-Apple-support/releases/download/${{ env.TAG }}/Python-${{ env.PY_VERSION }}-iOS-support.${{ env.BUILD_NUMBER }}.tar.gz
         make
+        shasum -a 256 xcframework.zip | sed 's/ .*//'
     - name: Upload release asset
       uses: actions/upload-release-asset@v1
       env:
@@ -83,5 +81,5 @@ jobs:
       with:
         upload_url: ${{ needs.make-release.outputs.upload_url }}
         asset_path: ./xcframework.zip
-        asset_name: xcframework.zip
+        asset_name: CorePython.xcframework.zip
         asset_content_type: application/gzip
