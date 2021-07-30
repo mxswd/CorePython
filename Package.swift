@@ -15,7 +15,7 @@ let package = Package(
         .binaryTarget(
             name: "CorePython",
             url: "https://github.com/mxswd/CorePython/releases/download/3.9-m2/xcframework.zip",
-            checksum: "e18ee214b3d692b0da7452f461c6b08eacea4f4cd6a027a1041a1a2af6aa465e"
+            checksum: "03e5fa4116568ad2cd5177b8176185375ee2b548d23c73f77ec267d1ff361669"
         )
     ]
 )
