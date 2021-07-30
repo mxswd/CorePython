@@ -1,0 +1,1065 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D4B4315D267F65B400030984 /* CorePythonFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D4B4315E267F65B400030984 /* Build configuration list for PBXAggregateTarget "CorePythonFramework" */;
+			buildPhases = (
+				D4B43163267F65F300030984 /* ShellScript */,
+			);
+			dependencies = (
+				D4B43162267F65E400030984 /* PBXTargetDependency */,
+			);
+			name = CorePythonFramework;
+			productName = CorePythonFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D491CE1226818F6F006409A2 /* CorePythonMacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D491CE1026818F6F006409A2 /* CorePythonMacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D491CE1826818F9B006409A2 /* libbzip2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D491CE1726818F9B006409A2 /* libbzip2.a */; };
+		D491CE1A26818F9C006409A2 /* libOpenSSL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D491CE1926818F9C006409A2 /* libOpenSSL.a */; };
+		D491CE1C26818F9D006409A2 /* libPython.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D491CE1B26818F9D006409A2 /* libPython.a */; };
+		D491CE1E26818F9F006409A2 /* libxz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D491CE1D26818F9F006409A2 /* libxz.a */; };
+		D491CE2026818FFC006409A2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D491CE1F26818FFC006409A2 /* libz.tbd */; };
+		D491CE2226819000006409A2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D491CE2126819000006409A2 /* libsqlite3.tbd */; };
+		D491CE2426819006006409A2 /* libffi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D491CE2326819006006409A2 /* libffi.tbd */; };
+		D491CE2626819204006409A2 /* libbzip2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B43157267F51EC00030984 /* libbzip2.a */; };
+		D491CE2726819206006409A2 /* libFFI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B43155267F51E700030984 /* libFFI.a */; };
+		D491CE2826819208006409A2 /* libOpenSSL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B43153267F51E100030984 /* libOpenSSL.a */; };
+		D491CE292681920A006409A2 /* libPython.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B43151267F51DB00030984 /* libPython.a */; };
+		D491CE2A2681920C006409A2 /* libxz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B4314F267F51C900030984 /* libxz.a */; };
+		D4B43146267F515000030984 /* CorePython.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43144267F515000030984 /* CorePython.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4315A267F52BC00030984 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B43159267F52BC00030984 /* libz.tbd */; };
+		D4B4315C267F534F00030984 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B4315B267F534F00030984 /* libsqlite3.tbd */; };
+		D4B431C9267F6C0600030984 /* modsupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43164267F6B6F00030984 /* modsupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431CA267F6C0600030984 /* tupleobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43165267F6B7100030984 /* tupleobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431CB267F6C0600030984 /* pystrhex.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43166267F6B7200030984 /* pystrhex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431CC267F6C0600030984 /* py_curses.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43167267F6B7400030984 /* py_curses.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431CD267F6C0600030984 /* abstract.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43168267F6B7500030984 /* abstract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431CE267F6C0600030984 /* setobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43169267F6B7700030984 /* setobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431CF267F6C0600030984 /* Python-ast.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4316A267F6B7800030984 /* Python-ast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431D0267F6C0600030984 /* frameobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4316B267F6B7A00030984 /* frameobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431D1267F6C0600030984 /* pystrtod.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4316C267F6B7B00030984 /* pystrtod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431D2267F6C0600030984 /* structmember.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4316D267F6B7D00030984 /* structmember.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431D3267F6C0600030984 /* pydebug.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4316E267F6B7E00030984 /* pydebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431D4267F6C0600030984 /* parsetok.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4316F267F6B8000030984 /* parsetok.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431D5267F6C0600030984 /* classobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43170267F6B8100030984 /* classobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431D6267F6C0600030984 /* bytesobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43171267F6B8300030984 /* bytesobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431D7267F6C0600030984 /* errcode.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43172267F6B8400030984 /* errcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431D8267F6C0600030984 /* cpython in Resources */ = {isa = PBXBuildFile; fileRef = D4B43173267F6B8600030984 /* cpython */; };
+		D4B431D9267F6C0600030984 /* sliceobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43174267F6B8700030984 /* sliceobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431DA267F6C0600030984 /* pymacro.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43175267F6B8900030984 /* pymacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431DB267F6C0700030984 /* complexobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43176267F6B8A00030984 /* complexobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431DC267F6C0700030984 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43177267F6B8C00030984 /* node.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431DD267F6C0700030984 /* warnings.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43178267F6B8D00030984 /* warnings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431DE267F6C0700030984 /* bitset.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43179267F6B8F00030984 /* bitset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431DF267F6C0700030984 /* boolobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4317A267F6B9000030984 /* boolobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431E0267F6C0700030984 /* bltinmodule.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4317B267F6B9200030984 /* bltinmodule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431E1267F6C0700030984 /* fileutils.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4317C267F6B9300030984 /* fileutils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431E2267F6C0700030984 /* pycapsule.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4317D267F6B9500030984 /* pycapsule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431E3267F6C0700030984 /* symtable.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4317E267F6B9700030984 /* symtable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431E4267F6C0700030984 /* pystrcmp.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4317F267F6B9800030984 /* pystrcmp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431E5267F6C0700030984 /* pydtrace.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43180267F6B9A00030984 /* pydtrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431E6267F6C0700030984 /* typeslots.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43181267F6B9B00030984 /* typeslots.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431E7267F6C0700030984 /* osdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43182267F6B9D00030984 /* osdefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431E8267F6C0700030984 /* graminit.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43183267F6B9E00030984 /* graminit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431E9267F6C0700030984 /* intrcheck.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43184267F6BA000030984 /* intrcheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431EA267F6C0700030984 /* object.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43185267F6BA100030984 /* object.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431EB267F6C0700030984 /* pyport.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43186267F6BA300030984 /* pyport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431EC267F6C0700030984 /* bytearrayobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43187267F6BA400030984 /* bytearrayobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431ED267F6C0700030984 /* odictobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43188267F6BA600030984 /* odictobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431EE267F6C0700030984 /* pyframe.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43189267F6BA700030984 /* pyframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431EF267F6C0700030984 /* ceval.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4318A267F6BA900030984 /* ceval.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431F1267F6C0700030984 /* code.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4318C267F6BAC00030984 /* code.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431F2267F6C0700030984 /* pyexpat.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4318D267F6BAD00030984 /* pyexpat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431F3267F6C0700030984 /* structseq.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4318E267F6BAF00030984 /* structseq.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431F4267F6C0700030984 /* context.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4318F267F6BB000030984 /* context.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431F5267F6C0700030984 /* dictobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43190267F6BB200030984 /* dictobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431F6267F6C0700030984 /* pymem.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43191267F6BB300030984 /* pymem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431F7267F6C0700030984 /* ucnhash.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43192267F6BB500030984 /* ucnhash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431F8267F6C0700030984 /* marshal.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43193267F6BB600030984 /* marshal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431F9267F6C0700030984 /* genobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43194267F6BB800030984 /* genobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431FA267F6C0700030984 /* floatobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43195267F6BB900030984 /* floatobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431FB267F6C0700030984 /* weakrefobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43196267F6BBB00030984 /* weakrefobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431FC267F6C0700030984 /* datetime.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43197267F6BBC00030984 /* datetime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431FD267F6C0700030984 /* opcode.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43198267F6BBE00030984 /* opcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431FE267F6C0700030984 /* pymath.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B43199267F6BBF00030984 /* pymath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B431FF267F6C0700030984 /* pytime.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4319A267F6BC100030984 /* pytime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43200267F6C0700030984 /* pyhash.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4319B267F6BC200030984 /* pyhash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43201267F6C0700030984 /* fileobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4319C267F6BC400030984 /* fileobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43202267F6C0700030984 /* Python.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4319D267F6BC500030984 /* Python.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43203267F6C0700030984 /* import.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4319E267F6BC700030984 /* import.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43204267F6C0700030984 /* traceback.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B4319F267F6BC800030984 /* traceback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43205267F6C0700030984 /* codecs.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431A0267F6BCA00030984 /* codecs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43206267F6C0700030984 /* patchlevel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431A1267F6BCB00030984 /* patchlevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43207267F6C0700030984 /* internal in Resources */ = {isa = PBXBuildFile; fileRef = D4B431A2267F6BCD00030984 /* internal */; };
+		D4B43208267F6C0700030984 /* pylifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431A3267F6BCE00030984 /* pylifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43209267F6C0700030984 /* eval.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431A4267F6BD000030984 /* eval.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4320A267F6C0700030984 /* pystate.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431A5267F6BD200030984 /* pystate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4320B267F6C0700030984 /* interpreteridobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431A6267F6BD300030984 /* interpreteridobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4320C267F6C0700030984 /* iterobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431A7267F6BD500030984 /* iterobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4320D267F6C0700030984 /* memoryobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431A8267F6BD600030984 /* memoryobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4320E267F6C0700030984 /* longobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431A9267F6BD800030984 /* longobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4320F267F6C0700030984 /* sysmodule.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431AA267F6BD900030984 /* sysmodule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43210267F6C0700030984 /* namespaceobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431AB267F6BDB00030984 /* namespaceobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43211267F6C0700030984 /* listobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431AC267F6BDC00030984 /* listobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43212267F6C0700030984 /* pyerrors.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431AD267F6BDE00030984 /* pyerrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43213267F6C0700030984 /* picklebufobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431AE267F6BDF00030984 /* picklebufobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43214267F6C0700030984 /* pythonrun.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431AF267F6BE100030984 /* pythonrun.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43215267F6C0700030984 /* pyctype.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431B0267F6BE200030984 /* pyctype.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43216267F6C0700030984 /* moduleobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431B1267F6BE400030984 /* moduleobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43217267F6C0700030984 /* enumobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431B2267F6BE500030984 /* enumobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43218267F6C0700030984 /* dynamic_annotations.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431B3267F6BE700030984 /* dynamic_annotations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43219267F6C0700030984 /* genericaliasobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431B4267F6BE800030984 /* genericaliasobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4321A267F6C0700030984 /* pythread.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431B5267F6BEA00030984 /* pythread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4321B267F6C0700030984 /* exports.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431B6267F6BEB00030984 /* exports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4321C267F6C0700030984 /* unicodeobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431B7267F6BED00030984 /* unicodeobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4321D267F6C0700030984 /* methodobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431B8267F6BEE00030984 /* methodobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4321E267F6C0700030984 /* compile.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431B9267F6BF000030984 /* compile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4321F267F6C0700030984 /* objimpl.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431BA267F6BF100030984 /* objimpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43220267F6C0700030984 /* asdl.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431BB267F6BF300030984 /* asdl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43221267F6C0700030984 /* ast.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431BC267F6BF400030984 /* ast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43222267F6C0700030984 /* token.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431BD267F6BF600030984 /* token.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43223267F6C0700030984 /* osmodule.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431BE267F6BF700030984 /* osmodule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43224267F6C0700030984 /* descrobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431BF267F6BF900030984 /* descrobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43225267F6C0700030984 /* longintrepr.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431C0267F6BFA00030984 /* longintrepr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43226267F6C0700030984 /* rangeobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431C1267F6BFC00030984 /* rangeobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43227267F6C0700030984 /* tracemalloc.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431C2267F6BFD00030984 /* tracemalloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43228267F6C0700030984 /* funcobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431C3267F6BFF00030984 /* funcobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B43229267F6C0700030984 /* cellobject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431C4267F6C0000030984 /* cellobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4322A267F6C0700030984 /* pymacconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431C5267F6C0200030984 /* pymacconfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4322B267F6C0700030984 /* grammar.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431C6267F6C0300030984 /* grammar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4322C267F6C0700030984 /* pyfpe.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431C7267F6C0500030984 /* pyfpe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B4322D267F6C0700030984 /* pyarena.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B431C8267F6C0600030984 /* pyarena.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4B43161267F65E400030984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B43138267F515000030984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B43140267F515000030984;
+			remoteInfo = CorePython;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D491CE0126818785006409A2 /* libmacxz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmacxz.a; path = "Python-3.9-macOS-support.custom/XZ/libmacxz.a"; sourceTree = "<group>"; };
+		D491CE0326818790006409A2 /* libmacOpenSSL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmacOpenSSL.a; path = "Python-3.9-macOS-support.custom/OpenSSL/libmacOpenSSL.a"; sourceTree = "<group>"; };
+		D491CE0526818798006409A2 /* libmacPython.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmacPython.a; path = "Python-3.9-macOS-support.custom/Python/libmacPython.a"; sourceTree = "<group>"; };
+		D491CE072681879E006409A2 /* libmacbzip2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmacbzip2.a; path = "Python-3.9-macOS-support.custom/BZip2/libmacbzip2.a"; sourceTree = "<group>"; };
+		D491CE0E26818F6F006409A2 /* CorePythonMacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CorePythonMacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D491CE1026818F6F006409A2 /* CorePythonMacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CorePythonMacOS.h; sourceTree = "<group>"; };
+		D491CE1126818F6F006409A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D491CE1626818F91006409A2 /* Python-3.9-macOS-support.custom */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Python-3.9-macOS-support.custom"; sourceTree = "<group>"; };
+		D491CE1726818F9B006409A2 /* libbzip2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbzip2.a; path = "Python-3.9-macOS-support.custom/BZip2/libbzip2.a"; sourceTree = "<group>"; };
+		D491CE1926818F9C006409A2 /* libOpenSSL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOpenSSL.a; path = "Python-3.9-macOS-support.custom/OpenSSL/libOpenSSL.a"; sourceTree = "<group>"; };
+		D491CE1B26818F9D006409A2 /* libPython.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPython.a; path = "Python-3.9-macOS-support.custom/Python/libPython.a"; sourceTree = "<group>"; };
+		D491CE1D26818F9F006409A2 /* libxz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxz.a; path = "Python-3.9-macOS-support.custom/XZ/libxz.a"; sourceTree = "<group>"; };
+		D491CE1F26818FFC006409A2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		D491CE2126819000006409A2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		D491CE2326819006006409A2 /* libffi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libffi.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libffi.tbd; sourceTree = DEVELOPER_DIR; };
+		D4B43141267F515000030984 /* CorePython.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CorePython.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B43144267F515000030984 /* CorePython.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CorePython.h; sourceTree = "<group>"; };
+		D4B43145267F515000030984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B4314C267F519000030984 /* Python-3.9-iOS-support.custom */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Python-3.9-iOS-support.custom"; sourceTree = "<group>"; };
+		D4B4314F267F51C900030984 /* libxz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxz.a; path = "Python-3.9-iOS-support.custom/XZ/libxz.a"; sourceTree = "<group>"; };
+		D4B43151267F51DB00030984 /* libPython.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPython.a; path = "Python-3.9-iOS-support.custom/Python/libPython.a"; sourceTree = "<group>"; };
+		D4B43153267F51E100030984 /* libOpenSSL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOpenSSL.a; path = "Python-3.9-iOS-support.custom/OpenSSL/libOpenSSL.a"; sourceTree = "<group>"; };
+		D4B43155267F51E700030984 /* libFFI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFFI.a; path = "Python-3.9-iOS-support.custom/libFFI/libFFI.a"; sourceTree = "<group>"; };
+		D4B43157267F51EC00030984 /* libbzip2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbzip2.a; path = "Python-3.9-iOS-support.custom/BZip2/libbzip2.a"; sourceTree = "<group>"; };
+		D4B43159267F52BC00030984 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D4B4315B267F534F00030984 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D4B43164267F6B6F00030984 /* modsupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modsupport.h; sourceTree = "<group>"; };
+		D4B43165267F6B7100030984 /* tupleobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tupleobject.h; sourceTree = "<group>"; };
+		D4B43166267F6B7200030984 /* pystrhex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pystrhex.h; sourceTree = "<group>"; };
+		D4B43167267F6B7400030984 /* py_curses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = py_curses.h; sourceTree = "<group>"; };
+		D4B43168267F6B7500030984 /* abstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abstract.h; sourceTree = "<group>"; };
+		D4B43169267F6B7700030984 /* setobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setobject.h; sourceTree = "<group>"; };
+		D4B4316A267F6B7800030984 /* Python-ast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Python-ast.h"; sourceTree = "<group>"; };
+		D4B4316B267F6B7A00030984 /* frameobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frameobject.h; sourceTree = "<group>"; };
+		D4B4316C267F6B7B00030984 /* pystrtod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pystrtod.h; sourceTree = "<group>"; };
+		D4B4316D267F6B7D00030984 /* structmember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structmember.h; sourceTree = "<group>"; };
+		D4B4316E267F6B7E00030984 /* pydebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pydebug.h; sourceTree = "<group>"; };
+		D4B4316F267F6B8000030984 /* parsetok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parsetok.h; sourceTree = "<group>"; };
+		D4B43170267F6B8100030984 /* classobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classobject.h; sourceTree = "<group>"; };
+		D4B43171267F6B8300030984 /* bytesobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytesobject.h; sourceTree = "<group>"; };
+		D4B43172267F6B8400030984 /* errcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errcode.h; sourceTree = "<group>"; };
+		D4B43173267F6B8600030984 /* cpython */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cpython; sourceTree = "<group>"; };
+		D4B43174267F6B8700030984 /* sliceobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sliceobject.h; sourceTree = "<group>"; };
+		D4B43175267F6B8900030984 /* pymacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pymacro.h; sourceTree = "<group>"; };
+		D4B43176267F6B8A00030984 /* complexobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = complexobject.h; sourceTree = "<group>"; };
+		D4B43177267F6B8C00030984 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		D4B43178267F6B8D00030984 /* warnings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = warnings.h; sourceTree = "<group>"; };
+		D4B43179267F6B8F00030984 /* bitset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitset.h; sourceTree = "<group>"; };
+		D4B4317A267F6B9000030984 /* boolobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boolobject.h; sourceTree = "<group>"; };
+		D4B4317B267F6B9200030984 /* bltinmodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bltinmodule.h; sourceTree = "<group>"; };
+		D4B4317C267F6B9300030984 /* fileutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileutils.h; sourceTree = "<group>"; };
+		D4B4317D267F6B9500030984 /* pycapsule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pycapsule.h; sourceTree = "<group>"; };
+		D4B4317E267F6B9700030984 /* symtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symtable.h; sourceTree = "<group>"; };
+		D4B4317F267F6B9800030984 /* pystrcmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pystrcmp.h; sourceTree = "<group>"; };
+		D4B43180267F6B9A00030984 /* pydtrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pydtrace.h; sourceTree = "<group>"; };
+		D4B43181267F6B9B00030984 /* typeslots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typeslots.h; sourceTree = "<group>"; };
+		D4B43182267F6B9D00030984 /* osdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osdefs.h; sourceTree = "<group>"; };
+		D4B43183267F6B9E00030984 /* graminit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graminit.h; sourceTree = "<group>"; };
+		D4B43184267F6BA000030984 /* intrcheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intrcheck.h; sourceTree = "<group>"; };
+		D4B43185267F6BA100030984 /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		D4B43186267F6BA300030984 /* pyport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyport.h; sourceTree = "<group>"; };
+		D4B43187267F6BA400030984 /* bytearrayobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytearrayobject.h; sourceTree = "<group>"; };
+		D4B43188267F6BA600030984 /* odictobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = odictobject.h; sourceTree = "<group>"; };
+		D4B43189267F6BA700030984 /* pyframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyframe.h; sourceTree = "<group>"; };
+		D4B4318A267F6BA900030984 /* ceval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ceval.h; sourceTree = "<group>"; };
+		D4B4318B267F6BAA00030984 /* pydtrace.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = pydtrace.d; sourceTree = "<group>"; };
+		D4B4318C267F6BAC00030984 /* code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = code.h; sourceTree = "<group>"; };
+		D4B4318D267F6BAD00030984 /* pyexpat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyexpat.h; sourceTree = "<group>"; };
+		D4B4318E267F6BAF00030984 /* structseq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structseq.h; sourceTree = "<group>"; };
+		D4B4318F267F6BB000030984 /* context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = context.h; sourceTree = "<group>"; };
+		D4B43190267F6BB200030984 /* dictobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictobject.h; sourceTree = "<group>"; };
+		D4B43191267F6BB300030984 /* pymem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pymem.h; sourceTree = "<group>"; };
+		D4B43192267F6BB500030984 /* ucnhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnhash.h; sourceTree = "<group>"; };
+		D4B43193267F6BB600030984 /* marshal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = marshal.h; sourceTree = "<group>"; };
+		D4B43194267F6BB800030984 /* genobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genobject.h; sourceTree = "<group>"; };
+		D4B43195267F6BB900030984 /* floatobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floatobject.h; sourceTree = "<group>"; };
+		D4B43196267F6BBB00030984 /* weakrefobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weakrefobject.h; sourceTree = "<group>"; };
+		D4B43197267F6BBC00030984 /* datetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datetime.h; sourceTree = "<group>"; };
+		D4B43198267F6BBE00030984 /* opcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opcode.h; sourceTree = "<group>"; };
+		D4B43199267F6BBF00030984 /* pymath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pymath.h; sourceTree = "<group>"; };
+		D4B4319A267F6BC100030984 /* pytime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pytime.h; sourceTree = "<group>"; };
+		D4B4319B267F6BC200030984 /* pyhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyhash.h; sourceTree = "<group>"; };
+		D4B4319C267F6BC400030984 /* fileobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileobject.h; sourceTree = "<group>"; };
+		D4B4319D267F6BC500030984 /* Python.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Python.h; sourceTree = "<group>"; };
+		D4B4319E267F6BC700030984 /* import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = import.h; sourceTree = "<group>"; };
+		D4B4319F267F6BC800030984 /* traceback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traceback.h; sourceTree = "<group>"; };
+		D4B431A0267F6BCA00030984 /* codecs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codecs.h; sourceTree = "<group>"; };
+		D4B431A1267F6BCB00030984 /* patchlevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patchlevel.h; sourceTree = "<group>"; };
+		D4B431A2267F6BCD00030984 /* internal */ = {isa = PBXFileReference; lastKnownFileType = folder; path = internal; sourceTree = "<group>"; };
+		D4B431A3267F6BCE00030984 /* pylifecycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pylifecycle.h; sourceTree = "<group>"; };
+		D4B431A4267F6BD000030984 /* eval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eval.h; sourceTree = "<group>"; };
+		D4B431A5267F6BD200030984 /* pystate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pystate.h; sourceTree = "<group>"; };
+		D4B431A6267F6BD300030984 /* interpreteridobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interpreteridobject.h; sourceTree = "<group>"; };
+		D4B431A7267F6BD500030984 /* iterobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iterobject.h; sourceTree = "<group>"; };
+		D4B431A8267F6BD600030984 /* memoryobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memoryobject.h; sourceTree = "<group>"; };
+		D4B431A9267F6BD800030984 /* longobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = longobject.h; sourceTree = "<group>"; };
+		D4B431AA267F6BD900030984 /* sysmodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysmodule.h; sourceTree = "<group>"; };
+		D4B431AB267F6BDB00030984 /* namespaceobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = namespaceobject.h; sourceTree = "<group>"; };
+		D4B431AC267F6BDC00030984 /* listobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listobject.h; sourceTree = "<group>"; };
+		D4B431AD267F6BDE00030984 /* pyerrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyerrors.h; sourceTree = "<group>"; };
+		D4B431AE267F6BDF00030984 /* picklebufobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picklebufobject.h; sourceTree = "<group>"; };
+		D4B431AF267F6BE100030984 /* pythonrun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pythonrun.h; sourceTree = "<group>"; };
+		D4B431B0267F6BE200030984 /* pyctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyctype.h; sourceTree = "<group>"; };
+		D4B431B1267F6BE400030984 /* moduleobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moduleobject.h; sourceTree = "<group>"; };
+		D4B431B2267F6BE500030984 /* enumobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enumobject.h; sourceTree = "<group>"; };
+		D4B431B3267F6BE700030984 /* dynamic_annotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dynamic_annotations.h; sourceTree = "<group>"; };
+		D4B431B4267F6BE800030984 /* genericaliasobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genericaliasobject.h; sourceTree = "<group>"; };
+		D4B431B5267F6BEA00030984 /* pythread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pythread.h; sourceTree = "<group>"; };
+		D4B431B6267F6BEB00030984 /* exports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exports.h; sourceTree = "<group>"; };
+		D4B431B7267F6BED00030984 /* unicodeobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicodeobject.h; sourceTree = "<group>"; };
+		D4B431B8267F6BEE00030984 /* methodobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = methodobject.h; sourceTree = "<group>"; };
+		D4B431B9267F6BF000030984 /* compile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compile.h; sourceTree = "<group>"; };
+		D4B431BA267F6BF100030984 /* objimpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objimpl.h; sourceTree = "<group>"; };
+		D4B431BB267F6BF300030984 /* asdl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asdl.h; sourceTree = "<group>"; };
+		D4B431BC267F6BF400030984 /* ast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ast.h; sourceTree = "<group>"; };
+		D4B431BD267F6BF600030984 /* token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = token.h; sourceTree = "<group>"; };
+		D4B431BE267F6BF700030984 /* osmodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osmodule.h; sourceTree = "<group>"; };
+		D4B431BF267F6BF900030984 /* descrobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = descrobject.h; sourceTree = "<group>"; };
+		D4B431C0267F6BFA00030984 /* longintrepr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = longintrepr.h; sourceTree = "<group>"; };
+		D4B431C1267F6BFC00030984 /* rangeobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rangeobject.h; sourceTree = "<group>"; };
+		D4B431C2267F6BFD00030984 /* tracemalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tracemalloc.h; sourceTree = "<group>"; };
+		D4B431C3267F6BFF00030984 /* funcobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = funcobject.h; sourceTree = "<group>"; };
+		D4B431C4267F6C0000030984 /* cellobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellobject.h; sourceTree = "<group>"; };
+		D4B431C5267F6C0200030984 /* pymacconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pymacconfig.h; sourceTree = "<group>"; };
+		D4B431C6267F6C0300030984 /* grammar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grammar.h; sourceTree = "<group>"; };
+		D4B431C7267F6C0500030984 /* pyfpe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyfpe.h; sourceTree = "<group>"; };
+		D4B431C8267F6C0600030984 /* pyarena.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyarena.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D491CE0B26818F6F006409A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D491CE2426819006006409A2 /* libffi.tbd in Frameworks */,
+				D491CE2226819000006409A2 /* libsqlite3.tbd in Frameworks */,
+				D491CE2026818FFC006409A2 /* libz.tbd in Frameworks */,
+				D491CE1A26818F9C006409A2 /* libOpenSSL.a in Frameworks */,
+				D491CE1826818F9B006409A2 /* libbzip2.a in Frameworks */,
+				D491CE1C26818F9D006409A2 /* libPython.a in Frameworks */,
+				D491CE1E26818F9F006409A2 /* libxz.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B4313E267F515000030984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B4315C267F534F00030984 /* libsqlite3.tbd in Frameworks */,
+				D4B4315A267F52BC00030984 /* libz.tbd in Frameworks */,
+				D491CE2626819204006409A2 /* libbzip2.a in Frameworks */,
+				D491CE2726819206006409A2 /* libFFI.a in Frameworks */,
+				D491CE2826819208006409A2 /* libOpenSSL.a in Frameworks */,
+				D491CE292681920A006409A2 /* libPython.a in Frameworks */,
+				D491CE2A2681920C006409A2 /* libxz.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D491CE0F26818F6F006409A2 /* CorePythonMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				D491CE1026818F6F006409A2 /* CorePythonMacOS.h */,
+				D491CE1126818F6F006409A2 /* Info.plist */,
+			);
+			path = CorePythonMacOS;
+			sourceTree = "<group>";
+		};
+		D4B43137267F515000030984 = {
+			isa = PBXGroup;
+			children = (
+				D491CE1626818F91006409A2 /* Python-3.9-macOS-support.custom */,
+				D4B4314C267F519000030984 /* Python-3.9-iOS-support.custom */,
+				D4B43143267F515000030984 /* CorePython */,
+				D491CE0F26818F6F006409A2 /* CorePythonMacOS */,
+				D4B43142267F515000030984 /* Products */,
+				D4B4314E267F51C900030984 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4B43142267F515000030984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B43141267F515000030984 /* CorePython.framework */,
+				D491CE0E26818F6F006409A2 /* CorePythonMacOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4B43143267F515000030984 /* CorePython */ = {
+			isa = PBXGroup;
+			children = (
+				D4B43168267F6B7500030984 /* abstract.h */,
+				D4B431BB267F6BF300030984 /* asdl.h */,
+				D4B431BC267F6BF400030984 /* ast.h */,
+				D4B43179267F6B8F00030984 /* bitset.h */,
+				D4B4317B267F6B9200030984 /* bltinmodule.h */,
+				D4B4317A267F6B9000030984 /* boolobject.h */,
+				D4B43187267F6BA400030984 /* bytearrayobject.h */,
+				D4B43171267F6B8300030984 /* bytesobject.h */,
+				D4B431C4267F6C0000030984 /* cellobject.h */,
+				D4B4318A267F6BA900030984 /* ceval.h */,
+				D4B43170267F6B8100030984 /* classobject.h */,
+				D4B4318C267F6BAC00030984 /* code.h */,
+				D4B431A0267F6BCA00030984 /* codecs.h */,
+				D4B431B9267F6BF000030984 /* compile.h */,
+				D4B43176267F6B8A00030984 /* complexobject.h */,
+				D4B4318F267F6BB000030984 /* context.h */,
+				D4B43173267F6B8600030984 /* cpython */,
+				D4B43197267F6BBC00030984 /* datetime.h */,
+				D4B431BF267F6BF900030984 /* descrobject.h */,
+				D4B43190267F6BB200030984 /* dictobject.h */,
+				D4B431B3267F6BE700030984 /* dynamic_annotations.h */,
+				D4B431B2267F6BE500030984 /* enumobject.h */,
+				D4B43172267F6B8400030984 /* errcode.h */,
+				D4B431A4267F6BD000030984 /* eval.h */,
+				D4B431B6267F6BEB00030984 /* exports.h */,
+				D4B4319C267F6BC400030984 /* fileobject.h */,
+				D4B4317C267F6B9300030984 /* fileutils.h */,
+				D4B43195267F6BB900030984 /* floatobject.h */,
+				D4B4316B267F6B7A00030984 /* frameobject.h */,
+				D4B431C3267F6BFF00030984 /* funcobject.h */,
+				D4B431B4267F6BE800030984 /* genericaliasobject.h */,
+				D4B43194267F6BB800030984 /* genobject.h */,
+				D4B43183267F6B9E00030984 /* graminit.h */,
+				D4B431C6267F6C0300030984 /* grammar.h */,
+				D4B4319E267F6BC700030984 /* import.h */,
+				D4B431A2267F6BCD00030984 /* internal */,
+				D4B431A6267F6BD300030984 /* interpreteridobject.h */,
+				D4B43184267F6BA000030984 /* intrcheck.h */,
+				D4B431A7267F6BD500030984 /* iterobject.h */,
+				D4B431AC267F6BDC00030984 /* listobject.h */,
+				D4B431C0267F6BFA00030984 /* longintrepr.h */,
+				D4B431A9267F6BD800030984 /* longobject.h */,
+				D4B43193267F6BB600030984 /* marshal.h */,
+				D4B431A8267F6BD600030984 /* memoryobject.h */,
+				D4B431B8267F6BEE00030984 /* methodobject.h */,
+				D4B43164267F6B6F00030984 /* modsupport.h */,
+				D4B431B1267F6BE400030984 /* moduleobject.h */,
+				D4B431AB267F6BDB00030984 /* namespaceobject.h */,
+				D4B43177267F6B8C00030984 /* node.h */,
+				D4B43185267F6BA100030984 /* object.h */,
+				D4B431BA267F6BF100030984 /* objimpl.h */,
+				D4B43188267F6BA600030984 /* odictobject.h */,
+				D4B43198267F6BBE00030984 /* opcode.h */,
+				D4B43182267F6B9D00030984 /* osdefs.h */,
+				D4B431BE267F6BF700030984 /* osmodule.h */,
+				D4B4316F267F6B8000030984 /* parsetok.h */,
+				D4B431A1267F6BCB00030984 /* patchlevel.h */,
+				D4B431AE267F6BDF00030984 /* picklebufobject.h */,
+				D4B43167267F6B7400030984 /* py_curses.h */,
+				D4B431C8267F6C0600030984 /* pyarena.h */,
+				D4B4317D267F6B9500030984 /* pycapsule.h */,
+				D4B431B0267F6BE200030984 /* pyctype.h */,
+				D4B4316E267F6B7E00030984 /* pydebug.h */,
+				D4B4318B267F6BAA00030984 /* pydtrace.d */,
+				D4B43180267F6B9A00030984 /* pydtrace.h */,
+				D4B431AD267F6BDE00030984 /* pyerrors.h */,
+				D4B4318D267F6BAD00030984 /* pyexpat.h */,
+				D4B431C7267F6C0500030984 /* pyfpe.h */,
+				D4B43189267F6BA700030984 /* pyframe.h */,
+				D4B4319B267F6BC200030984 /* pyhash.h */,
+				D4B431A3267F6BCE00030984 /* pylifecycle.h */,
+				D4B431C5267F6C0200030984 /* pymacconfig.h */,
+				D4B43175267F6B8900030984 /* pymacro.h */,
+				D4B43199267F6BBF00030984 /* pymath.h */,
+				D4B43191267F6BB300030984 /* pymem.h */,
+				D4B43186267F6BA300030984 /* pyport.h */,
+				D4B431A5267F6BD200030984 /* pystate.h */,
+				D4B4317F267F6B9800030984 /* pystrcmp.h */,
+				D4B43166267F6B7200030984 /* pystrhex.h */,
+				D4B4316C267F6B7B00030984 /* pystrtod.h */,
+				D4B4316A267F6B7800030984 /* Python-ast.h */,
+				D4B4319D267F6BC500030984 /* Python.h */,
+				D4B431AF267F6BE100030984 /* pythonrun.h */,
+				D4B431B5267F6BEA00030984 /* pythread.h */,
+				D4B4319A267F6BC100030984 /* pytime.h */,
+				D4B431C1267F6BFC00030984 /* rangeobject.h */,
+				D4B43169267F6B7700030984 /* setobject.h */,
+				D4B43174267F6B8700030984 /* sliceobject.h */,
+				D4B4316D267F6B7D00030984 /* structmember.h */,
+				D4B4318E267F6BAF00030984 /* structseq.h */,
+				D4B4317E267F6B9700030984 /* symtable.h */,
+				D4B431AA267F6BD900030984 /* sysmodule.h */,
+				D4B431BD267F6BF600030984 /* token.h */,
+				D4B4319F267F6BC800030984 /* traceback.h */,
+				D4B431C2267F6BFD00030984 /* tracemalloc.h */,
+				D4B43165267F6B7100030984 /* tupleobject.h */,
+				D4B43181267F6B9B00030984 /* typeslots.h */,
+				D4B43192267F6BB500030984 /* ucnhash.h */,
+				D4B431B7267F6BED00030984 /* unicodeobject.h */,
+				D4B43178267F6B8D00030984 /* warnings.h */,
+				D4B43196267F6BBB00030984 /* weakrefobject.h */,
+				D4B43144267F515000030984 /* CorePython.h */,
+				D4B43145267F515000030984 /* Info.plist */,
+			);
+			path = CorePython;
+			sourceTree = "<group>";
+		};
+		D4B4314E267F51C900030984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D491CE2326819006006409A2 /* libffi.tbd */,
+				D491CE2126819000006409A2 /* libsqlite3.tbd */,
+				D491CE1F26818FFC006409A2 /* libz.tbd */,
+				D491CE1726818F9B006409A2 /* libbzip2.a */,
+				D491CE1926818F9C006409A2 /* libOpenSSL.a */,
+				D491CE1B26818F9D006409A2 /* libPython.a */,
+				D491CE1D26818F9F006409A2 /* libxz.a */,
+				D4B4315B267F534F00030984 /* libsqlite3.tbd */,
+				D4B43159267F52BC00030984 /* libz.tbd */,
+				D4B4314F267F51C900030984 /* libxz.a */,
+				D491CE0526818798006409A2 /* libmacPython.a */,
+				D491CE072681879E006409A2 /* libmacbzip2.a */,
+				D491CE0326818790006409A2 /* libmacOpenSSL.a */,
+				D4B43157267F51EC00030984 /* libbzip2.a */,
+				D4B43151267F51DB00030984 /* libPython.a */,
+				D4B43155267F51E700030984 /* libFFI.a */,
+				D4B43153267F51E100030984 /* libOpenSSL.a */,
+				D491CE0126818785006409A2 /* libmacxz.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D491CE0926818F6F006409A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D491CE1226818F6F006409A2 /* CorePythonMacOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B4313C267F515000030984 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B431E6267F6C0700030984 /* typeslots.h in Headers */,
+				D4B431E3267F6C0700030984 /* symtable.h in Headers */,
+				D4B43223267F6C0700030984 /* osmodule.h in Headers */,
+				D4B43146267F515000030984 /* CorePython.h in Headers */,
+				D4B431E4267F6C0700030984 /* pystrcmp.h in Headers */,
+				D4B4321F267F6C0700030984 /* objimpl.h in Headers */,
+				D4B431D9267F6C0600030984 /* sliceobject.h in Headers */,
+				D4B431F4267F6C0700030984 /* context.h in Headers */,
+				D4B43212267F6C0700030984 /* pyerrors.h in Headers */,
+				D4B431DB267F6C0700030984 /* complexobject.h in Headers */,
+				D4B4320B267F6C0700030984 /* interpreteridobject.h in Headers */,
+				D4B43226267F6C0700030984 /* rangeobject.h in Headers */,
+				D4B431F8267F6C0700030984 /* marshal.h in Headers */,
+				D4B4320D267F6C0700030984 /* memoryobject.h in Headers */,
+				D4B431DD267F6C0700030984 /* warnings.h in Headers */,
+				D4B431ED267F6C0700030984 /* odictobject.h in Headers */,
+				D4B431DF267F6C0700030984 /* boolobject.h in Headers */,
+				D4B431CF267F6C0600030984 /* Python-ast.h in Headers */,
+				D4B43200267F6C0700030984 /* pyhash.h in Headers */,
+				D4B431E9267F6C0700030984 /* intrcheck.h in Headers */,
+				D4B4321A267F6C0700030984 /* pythread.h in Headers */,
+				D4B431FE267F6C0700030984 /* pymath.h in Headers */,
+				D4B4321C267F6C0700030984 /* unicodeobject.h in Headers */,
+				D4B4322C267F6C0700030984 /* pyfpe.h in Headers */,
+				D4B431C9267F6C0600030984 /* modsupport.h in Headers */,
+				D4B43224267F6C0700030984 /* descrobject.h in Headers */,
+				D4B431EA267F6C0700030984 /* object.h in Headers */,
+				D4B43201267F6C0700030984 /* fileobject.h in Headers */,
+				D4B43221267F6C0700030984 /* ast.h in Headers */,
+				D4B431F3267F6C0700030984 /* structseq.h in Headers */,
+				D4B431D7267F6C0600030984 /* errcode.h in Headers */,
+				D4B431D0267F6C0600030984 /* frameobject.h in Headers */,
+				D4B43203267F6C0700030984 /* import.h in Headers */,
+				D4B431F1267F6C0700030984 /* code.h in Headers */,
+				D4B431EF267F6C0700030984 /* ceval.h in Headers */,
+				D4B431EE267F6C0700030984 /* pyframe.h in Headers */,
+				D4B431E7267F6C0700030984 /* osdefs.h in Headers */,
+				D4B431FC267F6C0700030984 /* datetime.h in Headers */,
+				D4B431F6267F6C0700030984 /* pymem.h in Headers */,
+				D4B4320C267F6C0700030984 /* iterobject.h in Headers */,
+				D4B431D5267F6C0600030984 /* classobject.h in Headers */,
+				D4B4321B267F6C0700030984 /* exports.h in Headers */,
+				D4B431E0267F6C0700030984 /* bltinmodule.h in Headers */,
+				D4B431EC267F6C0700030984 /* bytearrayobject.h in Headers */,
+				D4B43209267F6C0700030984 /* eval.h in Headers */,
+				D4B43220267F6C0700030984 /* asdl.h in Headers */,
+				D4B43210267F6C0700030984 /* namespaceobject.h in Headers */,
+				D4B43229267F6C0700030984 /* cellobject.h in Headers */,
+				D4B431F7267F6C0700030984 /* ucnhash.h in Headers */,
+				D4B43208267F6C0700030984 /* pylifecycle.h in Headers */,
+				D4B431CD267F6C0600030984 /* abstract.h in Headers */,
+				D4B431FA267F6C0700030984 /* floatobject.h in Headers */,
+				D4B4322A267F6C0700030984 /* pymacconfig.h in Headers */,
+				D4B43206267F6C0700030984 /* patchlevel.h in Headers */,
+				D4B431F5267F6C0700030984 /* dictobject.h in Headers */,
+				D4B431CC267F6C0600030984 /* py_curses.h in Headers */,
+				D4B431E5267F6C0700030984 /* pydtrace.h in Headers */,
+				D4B43204267F6C0700030984 /* traceback.h in Headers */,
+				D4B4320A267F6C0700030984 /* pystate.h in Headers */,
+				D4B43211267F6C0700030984 /* listobject.h in Headers */,
+				D4B431DE267F6C0700030984 /* bitset.h in Headers */,
+				D4B431F2267F6C0700030984 /* pyexpat.h in Headers */,
+				D4B43219267F6C0700030984 /* genericaliasobject.h in Headers */,
+				D4B43214267F6C0700030984 /* pythonrun.h in Headers */,
+				D4B431DC267F6C0700030984 /* node.h in Headers */,
+				D4B43215267F6C0700030984 /* pyctype.h in Headers */,
+				D4B431F9267F6C0700030984 /* genobject.h in Headers */,
+				D4B431FF267F6C0700030984 /* pytime.h in Headers */,
+				D4B431D2267F6C0600030984 /* structmember.h in Headers */,
+				D4B431D3267F6C0600030984 /* pydebug.h in Headers */,
+				D4B431CA267F6C0600030984 /* tupleobject.h in Headers */,
+				D4B4320E267F6C0700030984 /* longobject.h in Headers */,
+				D4B431FB267F6C0700030984 /* weakrefobject.h in Headers */,
+				D4B431D4267F6C0600030984 /* parsetok.h in Headers */,
+				D4B43217267F6C0700030984 /* enumobject.h in Headers */,
+				D4B43227267F6C0700030984 /* tracemalloc.h in Headers */,
+				D4B431D1267F6C0600030984 /* pystrtod.h in Headers */,
+				D4B43222267F6C0700030984 /* token.h in Headers */,
+				D4B43218267F6C0700030984 /* dynamic_annotations.h in Headers */,
+				D4B4322D267F6C0700030984 /* pyarena.h in Headers */,
+				D4B4321D267F6C0700030984 /* methodobject.h in Headers */,
+				D4B43202267F6C0700030984 /* Python.h in Headers */,
+				D4B431EB267F6C0700030984 /* pyport.h in Headers */,
+				D4B431E1267F6C0700030984 /* fileutils.h in Headers */,
+				D4B4321E267F6C0700030984 /* compile.h in Headers */,
+				D4B4322B267F6C0700030984 /* grammar.h in Headers */,
+				D4B43216267F6C0700030984 /* moduleobject.h in Headers */,
+				D4B431CB267F6C0600030984 /* pystrhex.h in Headers */,
+				D4B431E8267F6C0700030984 /* graminit.h in Headers */,
+				D4B431D6267F6C0600030984 /* bytesobject.h in Headers */,
+				D4B43228267F6C0700030984 /* funcobject.h in Headers */,
+				D4B43213267F6C0700030984 /* picklebufobject.h in Headers */,
+				D4B4320F267F6C0700030984 /* sysmodule.h in Headers */,
+				D4B431FD267F6C0700030984 /* opcode.h in Headers */,
+				D4B431DA267F6C0600030984 /* pymacro.h in Headers */,
+				D4B431CE267F6C0600030984 /* setobject.h in Headers */,
+				D4B431E2267F6C0700030984 /* pycapsule.h in Headers */,
+				D4B43205267F6C0700030984 /* codecs.h in Headers */,
+				D4B43225267F6C0700030984 /* longintrepr.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D491CE0D26818F6F006409A2 /* CorePythonMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D491CE1326818F6F006409A2 /* Build configuration list for PBXNativeTarget "CorePythonMacOS" */;
+			buildPhases = (
+				D491CE0926818F6F006409A2 /* Headers */,
+				D491CE0A26818F6F006409A2 /* Sources */,
+				D491CE0B26818F6F006409A2 /* Frameworks */,
+				D491CE0C26818F6F006409A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CorePythonMacOS;
+			productName = CorePythonMacOS;
+			productReference = D491CE0E26818F6F006409A2 /* CorePythonMacOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4B43140267F515000030984 /* CorePython */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B43149267F515000030984 /* Build configuration list for PBXNativeTarget "CorePython" */;
+			buildPhases = (
+				D4B4313C267F515000030984 /* Headers */,
+				D4B4313D267F515000030984 /* Sources */,
+				D4B4313E267F515000030984 /* Frameworks */,
+				D4B4313F267F515000030984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CorePython;
+			productName = CorePython;
+			productReference = D4B43141267F515000030984 /* CorePython.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4B43138267F515000030984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D491CE0D26818F6F006409A2 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D4B43140267F515000030984 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D4B4315D267F65B400030984 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = D4B4313B267F515000030984 /* Build configuration list for PBXProject "CorePython" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4B43137267F515000030984;
+			productRefGroup = D4B43142267F515000030984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4B43140267F515000030984 /* CorePython */,
+				D491CE0D26818F6F006409A2 /* CorePythonMacOS */,
+				D4B4315D267F65B400030984 /* CorePythonFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D491CE0C26818F6F006409A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B4313F267F515000030984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B431D8267F6C0600030984 /* cpython in Resources */,
+				D4B43207267F6C0700030984 /* internal in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4B43163267F65F300030984 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCHEME_NAME=\"CorePython\"\nFRAMEWORK_NAME=\"CorePython\"\nMACOS_FRAMEWORK_NAME=\"CorePythonMacOS\"\n\nSIMULATOR_ARCHIVE_PATH=\"${BUILD_DIR}/${CONFIGURATION}/${FRAMEWORK_NAME}-iphonesimulator.xcarchive\"\nDEVICE_ARCHIVE_PATH=\"${BUILD_DIR}/${CONFIGURATION}/${FRAMEWORK_NAME}-iphoneos.xcarchive\"\nMACOS_ARCHIVE_PATH=\"${BUILD_DIR}/${CONFIGURATION}/${MACOS_FRAMEWORK_NAME}-macosx.xcarchive\"\nCATA_ARCHIVE_PATH=\"${BUILD_DIR}/${CONFIGURATION}/${MACOS_FRAMEWORK_NAME}-maccatalyst.xcarchive\"\nOUTPUT_DIC=\"./xcframework/\"\n\nmkdir -p ${CATA_ARCHIVE_PATH}\n\n# Simulator xcarchieve\nxcodebuild archive \\\n  -scheme ${SCHEME_NAME} \\\n  -arch x86_64 \\\n  -archivePath ${SIMULATOR_ARCHIVE_PATH} \\\n  -sdk iphonesimulator \\\n  SKIP_INSTALL=NO\n\n# Device xcarchieve\nxcodebuild archive \\\n  -scheme ${SCHEME_NAME} \\\n  -archivePath ${DEVICE_ARCHIVE_PATH} \\\n  -sdk iphoneos \\\n  SKIP_INSTALL=NO\n\n# Catalyst xcarchieve\nxcodebuild archive \\\n  -scheme ${MACOS_FRAMEWORK_NAME} \\\n  -archivePath ${MACOS_ARCHIVE_PATH} \\\n  -sdk macosx \\\n  SKIP_INSTALL=NO\n\ncp -r ${MACOS_ARCHIVE_PATH}/Products/Library/Frameworks/${MACOS_FRAMEWORK_NAME}.framework ${CATA_ARCHIVE_PATH}/${MACOS_FRAMEWORK_NAME}.framework\n\nvtool -set-build-version maccatalyst 11.3 11.3 ${CATA_ARCHIVE_PATH}/${MACOS_FRAMEWORK_NAME}.framework/${MACOS_FRAMEWORK_NAME} -output ${CATA_ARCHIVE_PATH}/${MACOS_FRAMEWORK_NAME}.framework/${MACOS_FRAMEWORK_NAME} -replace\n\n# Clean up old output directory\nrm -rf \"${OUTPUT_DIC}\"\n# Create xcframwork combine of all frameworks\nxcodebuild -create-xcframework \\\n  -framework ${SIMULATOR_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \\\n  -framework ${DEVICE_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \\\n  -framework  ${MACOS_ARCHIVE_PATH}/Products/Library/Frameworks/${MACOS_FRAMEWORK_NAME}.framework \\\n  -framework ${CATA_ARCHIVE_PATH}/${MACOS_FRAMEWORK_NAME}.framework \\\n  -output ${OUTPUT_DIC}/${FRAMEWORK_NAME}.xcframework\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D491CE0A26818F6F006409A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B4313D267F515000030984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4B43162267F65E400030984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = D4B43140267F515000030984 /* CorePython */;
+			targetProxy = D4B43161267F65E400030984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D491CE1426818F6F006409A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CorePythonMacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/BZip2",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/OpenSSL",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/Python",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/XZ",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/Python/libPython.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = town.max.CorePythonMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D491CE1526818F6F006409A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CorePythonMacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/BZip2",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/OpenSSL",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/Python",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/XZ",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/Python/libPython.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = town.max.CorePythonMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D4B43147267F515000030984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4B43148267F515000030984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4B4314A267F515000030984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CorePython/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Python-3.9-iOS-support.custom/XZ",
+					"$(PROJECT_DIR)/Python-3.9-iOS-support.custom/Python",
+					"$(PROJECT_DIR)/Python-3.9-iOS-support.custom/OpenSSL",
+					"$(PROJECT_DIR)/Python-3.9-iOS-support.custom/libFFI",
+					"$(PROJECT_DIR)/Python-3.9-iOS-support.custom/BZip2",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/XZ",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/OpenSSL",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/Python",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/BZip2",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(PROJECT_DIR)/Python-3.9-iOS-support.custom/Python/libPython.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = town.max.CorePython;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4B4314B267F515000030984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CorePython/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Python-3.9-iOS-support.custom/XZ",
+					"$(PROJECT_DIR)/Python-3.9-iOS-support.custom/Python",
+					"$(PROJECT_DIR)/Python-3.9-iOS-support.custom/OpenSSL",
+					"$(PROJECT_DIR)/Python-3.9-iOS-support.custom/libFFI",
+					"$(PROJECT_DIR)/Python-3.9-iOS-support.custom/BZip2",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/XZ",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/OpenSSL",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/Python",
+					"$(PROJECT_DIR)/Python-3.9-macOS-support.custom/BZip2",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(PROJECT_DIR)/Python-3.9-iOS-support.custom/Python/libPython.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = town.max.CorePython;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4B4315F267F65B400030984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4B43160267F65B400030984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D491CE1326818F6F006409A2 /* Build configuration list for PBXNativeTarget "CorePythonMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D491CE1426818F6F006409A2 /* Debug */,
+				D491CE1526818F6F006409A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B4313B267F515000030984 /* Build configuration list for PBXProject "CorePython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B43147267F515000030984 /* Debug */,
+				D4B43148267F515000030984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B43149267F515000030984 /* Build configuration list for PBXNativeTarget "CorePython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B4314A267F515000030984 /* Debug */,
+				D4B4314B267F515000030984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B4315E267F65B400030984 /* Build configuration list for PBXAggregateTarget "CorePythonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B4315F267F65B400030984 /* Debug */,
+				D4B43160267F65B400030984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4B43138267F515000030984 /* Project object */;
+}
