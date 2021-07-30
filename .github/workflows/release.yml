@@ -72,6 +72,9 @@ jobs:
         # gettext. However macOS provides a version of curl that works fine.
         # brew uninstall --ignore-dependencies gettext curl
         # Do the build for the requested target.
+        
+        curl -o Python-${{ env.PY_VERSION }}-macOS-support.custom.tar.gz -L https://github.com/beeware/Python-Apple-support/releases/download/${{ env.TAG }}/Python-${{ env.PY_VERSION }}-macOS-support.${{ env.BUILD_NUMBER }}.tar.gz
+        curl -o Python-${{ env.PY_VERSION }}-iOS-support.custom.tar.gz -L https://github.com/beeware/Python-Apple-support/releases/download/${{ env.TAG }}/Python-${{ env.PY_VERSION }}-macOS-support.${{ env.BUILD_NUMBER }}.tar.gz
         make
     - name: Upload release asset
       uses: actions/upload-release-asset@v1
