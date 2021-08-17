@@ -41,8 +41,13 @@ jobs:
       upload_url: ${{ steps.create_release.outputs.upload_url }}
 
   build:
-    runs-on: self-hosted
+    runs-on: macOS-11
     needs: make-release
+    env:
+     # The Xcode version to use. If you want to update it please refer to this document:
+     # https://docs.github.com/en/actions/reference/specifications-for-github-hosted-runners#supported-software
+     # and set proper version.
+       XCODE_VERSION: 13
     steps:
     - uses: actions/checkout@v2
     - name: Set build variables
